@@ -1,4 +1,4 @@
-// wrapper for "class" Controls
+// wrapper for Controls
 (function(){
     function Controls(){}
 

@@ -1,4 +1,4 @@
-// wrapper for our game "classes", "methods" and "objects"
+// wrapper for game
 window.Game = {};
 
 // Game Script

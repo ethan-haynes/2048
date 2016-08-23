@@ -1,4 +1,4 @@
-// wrapper for "class" Rectangle
+// wrapper for Update
 (function(){
     function Update(){ }
     var HEX = {
