@@ -1,0 +1,146 @@
+body {
+  background-color: #F2E9E4;
+
+  /*scaling fix found at http://stackoverflow.com/questions/1156278/how-can-i-scale-an-entire-web-page-with-css*/
+  transform: scale(1.2);
+  transform-origin: 20% 20%;
+}
+.container-innerbody{
+  width: 228px;
+}
+.container-body {
+  width: 50%;
+  left: 15%;
+  margin: 0 auto;
+  position: relative;
+}
+
+div,
+ul,
+li {
+  border-radius: 3px;
+}
+
+.gallery {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery li {
+  display: inline-block;
+  position: relative;
+}
+
+ul {
+  background-color: #C9ADA7;
+  border: solid 4px #C9ADA7;
+  height: 220px;
+  width: 220px;
+}
+
+.outside,
+.inside {
+  height: 45px;
+  width: 45px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+li {
+  background-color: #9A8C98;
+  height: 52px;
+  width: 52px;
+}
+
+.outside {
+  position: relative;
+  line-height: 45px;
+  text-align: center;
+}
+
+.Inside {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  width: 45px;
+}
+
+#endOfGame {
+  display: none;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  height: 50%;
+  width: 200px;
+  z-index: 10;
+  top: 25%;
+  left: 12px;
+  background-color: #FE938C;
+  border: solid 4px #FE938C;
+  border-radius: 3px;
+}
+
+.container-box {
+  position: absolute;
+  margin-bottom: 20px;
+  margin-left: 4px;
+  width: 130px;
+  height: 100px;
+  display: inline-block;
+}
+
+.top-box {
+  background-color: #C9ADA7;
+  border: solid 4px #C9ADA7;
+  width: 220px;
+  height: 90px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.score-box,
+.title-box,
+.small-box {
+  position: relative;
+  background-color: #9A8C98;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.score-box {
+  width: 60px;
+  height: 45px;
+  text-align: center;
+}
+
+.inner-box {
+  position: absolute;
+  font-size: 12px;
+  color: white;
+  width: 60px;
+}
+
+.title-box {
+  margin-bottom: 20px;
+  width: 90px;
+  height: 90px;
+}
+
+.small-box {
+  width: 124px;
+  height: 27.5px;
+}
+
+.small-box:active {
+  background-color: #525174;
+}
+
+.inner-newgame {
+  top: 20%;
+}
